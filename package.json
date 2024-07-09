@@ -1,7 +1,7 @@
 {
-  "name": "html-to-markdown",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "@0xdwong/html-to-markdown",
+  "version": "1.0.1",
+  "main": "src/index.js",
   "license": "MIT",
   "scripts": {
     "test": "node tests/test.js"
@@ -10,5 +10,24 @@
     "@mozilla/readability": "^0.5.0",
     "jsdom": "^24.1.0",
     "turndown": "^7.2.0"
-  }
+  },
+  "description": "conver html content to markdown form url",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xdwong/html-to-markdown.git"
+  },
+  "keywords": [
+    "markdown",
+    "html",
+    "convert"
+  ],
+  "author": "dwong",
+  "bugs": {
+    "url": "https://github.com/0xdwong/html-to-markdown/issues"
+  },
+  "homepage": "https://github.com/0xdwong/html-to-markdown#readme"
 }
